@@ -5,22 +5,11 @@ import ClientLayout from "./clientLayout"
 export const metadata: Metadata = {
   title: "Artisan's Chronoscape",
   description: "A time-traveling adventure through the world of artisans",
-    generator: 'Next.js',
+  generator: 'Next.js',
   applicationName: "Artisan's Chronoscape",
   keywords: [
-    "artisan",
-    "chronoscape",
-    "time travel",
-    "adventure",
-    "craftsmanship",
-    "history",
-    "exploration",
-    "culture",
-    "heritage",
-    "art",
-    "journey",
-    "tradition",
-    "innovation", 
+    "artisan", "chronoscape", "time travel", "adventure", "craftsmanship", "history",
+    "exploration", "culture", "heritage", "art", "journey", "tradition", "innovation"
   ],
   authors: [
     {
@@ -30,7 +19,10 @@ export const metadata: Metadata = {
   ],
   creator: "Artisan's Team",
   publisher: "Artisan's Team",
-  openGraph: {  
+  icons: {
+    icon: "/logo.png",        
+  },
+  openGraph: {
     title: "Artisan's Chronoscape",
     description: "A time-traveling adventure through the world of artisans",
     url: "https://artisanschronoscape.com",
@@ -55,6 +47,5 @@ export default function RootLayout({
 }) {
   return <ClientLayout>{children}</ClientLayout>
 }
-
 
 import './globals.css'

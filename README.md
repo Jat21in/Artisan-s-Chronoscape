@@ -15,7 +15,7 @@
 
 [🚀 Live Demo](https://artisan-chronoscape.vercel.app/) • [📚 Docs](https://github.com/artisan-chronoscape/docs) • [🐛 Report Bug](https://github.com/artisan-chronoscape/issues)
 
-<img src="/d1.png" alt="Artisan's Chronoscape Platform" width="700"/>
+<img src="/public/d1.png" alt="Artisan's Chronoscape Platform" width="700"/>
 
 </div>
 
